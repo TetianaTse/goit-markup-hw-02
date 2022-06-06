@@ -1,0 +1,83 @@
+:root {
+    --primary-text-color: #212121;
+    --second-tet-color: #757575;
+    --accent-color: #2196F3;
+    --hero-color: #FFFFFF;
+    --cont-footer: rgba(255, 255, 255, 0.6);
+    --baground:#FFFFFF;
+    --baground-second: #F5F4FA;
+    --baground-third: #2F303A;
+}
+ul {
+    list-style: none;
+}
+.page {
+background: var(--baground);
+color:var(--primary-text-color);
+}
+
+/* Шапка сайта */
+.logo-blue {
+color: var(--accent-color);
+}
+.logo-black {
+color: var(--primary-text-color);
+}
+.site-nav .link {
+color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+color: var(--accent-color);
+}
+.site-nav .link.current {
+color: var(--accent-color);
+}
+.contacts .contacts-link{
+color:var(--second-tet-color);
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus{
+color: var(--accent-color);
+}
+
+/* Герой */
+
+.button {
+color: var(--hero-color);
+background-color: var(--accent-color);
+border-color: var(--accent-color);
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+}
+
+/* Секции */
+.services .text {
+color:var(--second-tet-color);
+}
+.services .services-title {
+
+}
+.section .job {
+color:var(--second-tet-color);
+}
+
+/* Footer */
+.footer {
+background-color: var(--baground-third);
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+}
+.footer .logo-white {
+color: var(--hero-color);
+}
+.footer-list .address {
+color:var(--hero-color);
+}
+.footer-list .contacts {
+color: var(--cont-footer);
+}
